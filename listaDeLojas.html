@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PA-PARK</title> 
+    <link rel="stylesheet" href="style/shared/headers.css">
+    <link rel="stylesheet" href="style/shared/drawer.css">  
+    <link rel="stylesheet" href="style/shared/lists.css">
+    <link rel="stylesheet" href="style/shared/scrolling.css">
+    <link rel="stylesheet" href="style/app/pontosVendas.css">
+</head>
+<body role="application">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <section id="drawer" role="region">
+        <header>
+            <a href="#"><span class="icon icon-menu">hide sidebar</span></a>
+            <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+            <h1>Pontos de Vendas</h1>     
+        </header>
+        <div role="main">
+            <section data-type="list">
+               <ul id="ListaDeLojas"></ul>
+            </section>
+        </div>  
+    </section>
+  
+    <section data-type="sidebar">
+        <header>
+            <menu type="toolbar"></menu>
+            <h1>Menu</h1>
+        </header>
+          <nav>
+              <ul class="menu">
+                  <li><a href="pontosVendas.html"> Pontos de Vendas - Maps </a></li>
+                  <li><a href="listaDeLojas.html"> Lista de Pontos de Vendas</a></li>
+                  <li><a href="alerta.html">  Programar Alertas</a></li>
+                  <li><a href="sobre.html">  Sobre</a></li>
+              </ul>
+          </nav>
+    </section>
+
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/markerclusterer.js"></script>
+  <script src="js/listaDeLojas.js"></script>
+
+</body>
+</html>

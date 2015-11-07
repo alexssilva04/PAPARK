@@ -1,0 +1,16 @@
+
+.tamanho{ 
+	height: 110px;	
+	width: 220px;
+	margin-top: 10px;
+}
+
+.text{ 
+	font-size: 5em; 
+	text-align: center; 
+	padding: 20px;
+}
+
+.marginTop{
+	margin-top: 20px;
+}

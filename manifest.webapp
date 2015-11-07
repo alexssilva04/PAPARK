@@ -1,0 +1,30 @@
+{
+  "name": "PA-Park",
+  "version": "1.0",
+  "description": "Aplicativo Móvel Zona Azul",
+  "launch_path": "/index.html",
+  "permissions": {
+  "desktop-notification": {
+    "description": "Needed for creating system notifications."
+  },
+    "storage": {
+      "description": "Aplicativo de mapeamento dos pontos de vendas Zona Azul "
+    },
+    "geolocation": {
+            "description" : "Used to locate me"
+        },
+		"systemXHR": { 
+		    "description": "Required to make Network calls" 
+	    }
+  },
+  "messages": [{"notification": "pontosVendas.html"}],
+    
+  "developer": {
+    "name": "Alex Silva e Renato Peres",
+    "url": ""
+  },
+  "icons": {
+    "60": "/images/icon60.png",
+    "128": "/images/icon128.png"
+  }
+}

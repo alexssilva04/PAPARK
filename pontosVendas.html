@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>PA-PARK</title> 
+    <link rel="stylesheet" href="style/shared/headers.css">
+    <link rel="stylesheet" href="style/shared/drawer.css">
+    <link rel="stylesheet" href="style/app/pontosVendas.css">
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?keyAIzaSyDdnA5m1qo1uMowmLaqZHbaIqifuAjDb-k=&amp;sensor=true"></script>
+    <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+</head>
+<body role="application">
+ 
+ <section id="drawer" role="region">
+      <header>
+          <a href="#"><span class="icon icon-menu">hide sidebar</span></a>
+          <a href="#drawer"><span class="icon icon-menu">show sidebar</span></a>
+          <h1>Pontos de Vendas</h1>     
+      </header>
+      <div role="main"> 
+         <div id="mapa"></div>
+      </div>
+ </section>
+ 
+ <section data-type="sidebar">
+      <header>
+          <menu type="toolbar"></menu>
+          <h1>Menu</h1>
+      </header>
+      <nav>
+          <ul class="menu">
+              <li><a href="pontosVendas.html"> Pontos de Vendas - Maps </a></li>
+              <li><a href="listaDeLojas.html"> Lista de Pontos de Vendas</a></li>
+              <li><a href="alerta.html">  Programar Alertas</a></li>
+              <li><a href="sobre.html">  Sobre</a></li>
+          </ul>
+      </nav>
+  </section>
+    
+  <script src="js/lib/jquery.min.js"></script> 
+  <script src="js/verificaConexao.js"></script> 
+  <script src="js/infobox.js"></script>     
+  <script src="js/markerclusterer.js"></script>
+  <script src="js/pontosVendas.js"></script>
+    
+</body>
+</html>

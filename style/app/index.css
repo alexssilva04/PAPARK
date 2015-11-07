@@ -1,0 +1,21 @@
+html,body{
+
+    background-color: #00adad;   
+}
+
+
+#logo{
+    height: 200px;
+    background-image:url('../../images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 110px;
+    text-align: center;;
+}
+
+
+ div{
+
+    text-align: center;
+     margin-top: 30px;
+ }
